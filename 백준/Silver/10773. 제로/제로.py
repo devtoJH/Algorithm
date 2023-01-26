@@ -1,3 +1,5 @@
+import sys
+input = sys.stdin.readline
 K = int(input())
 num_list = []
 for k in range(K):
