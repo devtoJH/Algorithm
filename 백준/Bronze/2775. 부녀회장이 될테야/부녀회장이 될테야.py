@@ -1,7 +1,5 @@
 T = int(input())
 
-floor_list = []
-
 for t in range(T):
     k = int(input()) # 층
     n = int(input()) # 호
