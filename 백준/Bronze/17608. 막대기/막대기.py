@@ -5,10 +5,7 @@ N = int(input())
 stick_list = []
 cnt = 1
 
-for _ in range(N):
-    stick = int(input())
-    stick_list.append(stick)
-#print(stick_list)
+stick_list = [int(input()) for _ in range(N)]
 
 max_stick = stick_list[-1]
 
