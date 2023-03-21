@@ -1,8 +1,10 @@
-n = int(input())
+import sys
+
+n = int(sys.stdin.readline())
 num_list = []
 
 for _ in range(n):
-    x, y = map(int, input().split())
+    x, y = map(int, sys.stdin.readline().split())
     num_list.append([x, y])
 
 num_list.sort()
